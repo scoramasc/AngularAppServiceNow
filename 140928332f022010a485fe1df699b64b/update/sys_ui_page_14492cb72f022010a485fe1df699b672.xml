@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var myVar = 'Something';]]></client_script>
+        <description>HTML for Angular App</description>
+        <direct>false</direct>
+        <endpoint>x_304843_angular_a_angular_app.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
+	<script src="x_304843_angular_a.angular_app_client_lo.jsdbx"></script>
+	<div ng-app="angularapp" ng-controller="AngularAppCtrl as appctrl">
+		<input type="text" ng-model="myVar" placeholder="Enter some text here ..."></input>
+		<div class="jumbotron">
+			<h1 class="display-3">Hello world!</h1>
+			<hr class="m-y-2" />
+			<p>{{myVar}}</p>
+		</div>
+		<button ng-click="clearText()" type="button" class="btn btn-primary">Clear text</button> 
+	</div>
+</j:jelly>]]></html>
+        <name>angular_app</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-07 08:05:23</sys_created_on>
+        <sys_id>14492cb72f022010a485fe1df699b672</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>angular_app</sys_name>
+        <sys_package display_value="Angular App" source="x_304843_angular_a">140928332f022010a485fe1df699b64b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Angular App">140928332f022010a485fe1df699b64b</sys_scope>
+        <sys_update_name>sys_ui_page_14492cb72f022010a485fe1df699b672</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-07 09:39:38</sys_updated_on>
+    </sys_ui_page>
+</record_update>
